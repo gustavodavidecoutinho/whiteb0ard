@@ -4,10 +4,10 @@ Architecture: iphoneos-arm64
 Maintainer: Gustavo <gdavidecoutinho@gmail.com>
 Depends: firmware (>= 14.0), python3
 Filename: debs/whiteb0ard.deb
-Size: 1160
-MD5sum: 875a55bc8b28635c78820c02249e0709
-SHA1: c7b3f441dbc26ceb1c3b6df61bf918e8176ddb8e
-SHA256: cd6d3cab58168c78ed8baab4792c47d87d0075970d8f2e9c82f61b5a2110f282
+Size: 1168
+MD5sum: 71c6aba8fc42dfb2430ee593f73f2afc
+SHA1: e7c5b844f73828869b5c8c7041593161de114706
+SHA256: 49d9a4f242cf772bd6a215db2ea8418422fe2855b014085c29b0573841336d86
 Section: Tweaks
 Description: Diasable iOS ScreenTime.
 Author: Gustavo <gdavidecoutinho@gmail.com>
