@@ -1,0 +1,34 @@
+#!/bin/sh
+
+
+python3 - <<'EOF'
+import plistlib
+import os
+
+path = "/var/mobile/Library/Preferences/com.apple.ScreenTimeAgent.plist"
+
+if os.path.exists(path):
+    try:
+       
+        with open(path, "rb") as f:
+            plist_data = plistlib.load(f)
+        
+        
+        plist_data["ScreenTimeEnabled"] = False
+        
+      
+        with open(path, "wb") as f:
+            plistlib.dump(plist_data, f)
+            
+        print("[+] screen time was successfully disabled by whiteb0ard.")
+    except Exception as e:
+        print(f"[-] Error processing plist: {e}")
+else:
+    print("[-] plist file not found. ScreenTime may not be enabled.")
+EOF
+
+
+sleep 1
+launchctl reboot userspace
+
+exit 0

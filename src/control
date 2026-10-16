@@ -1,0 +1,9 @@
+Package: com.gustavo.whiteb0ard
+Name: whiteb0ard
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description:  Diasable iOS ScreenTime.
+Maintainer: Gustavo <gdavidecoutinho@gmail.com>
+Author: Gustavo <gdavidecoutinho@gmail.com>
+Section: Tweaks
+Depends: firmware (>= 14.0), python3
