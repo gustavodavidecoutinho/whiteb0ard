@@ -24,5 +24,6 @@ Using sileo or other APT package manager such as cydia
 Add the official APT repository to your package manager of choice:
 
 **Repository URL:**
-```text
-"https://gustavodavidecoutinho.github.io/whiteb0ard/"
+```bash
+https://gustavodavidecoutinho.github.io/whiteb0ard/
+```
